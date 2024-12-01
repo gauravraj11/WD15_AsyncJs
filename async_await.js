@@ -1,5 +1,4 @@
- const result = async function add(){
-    
+ const result = async function(){   
    const abc = await fetch('https://fakestoreapi.com/products');
    const data = await abc.json();
    console.log(data);
